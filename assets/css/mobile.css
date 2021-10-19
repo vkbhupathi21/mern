@@ -1,0 +1,156 @@
+body {
+    font-family: 'Poppins';
+    background-color: #fbfbfb;
+}
+
+#menuBar {
+    position: sticky;
+    top: 0px;
+    background-color: #ce0505;
+    color: white;
+    height: 60px;
+    width: 420px;
+    z-index: 999;
+}
+
+#menuBar div {
+    position: absolute;
+}
+
+#logo {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    left: 20px;
+    top: 10px;
+}
+
+#logo>span {
+    position: absolute;
+    color: #ce0505;
+    font-size: 26px;
+    line-height: 39px;
+    top: 2px;
+    left: 9px;
+}
+
+#login {
+    top: 20px;
+    left: 150px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+#signUp {
+    top: 13px;
+    left: 196px;
+    line-height: 20px;
+    font-size: 13px;
+    border-radius: 3%;
+    border: 1px solid white;
+    padding: 6px;
+}
+
+#mainBody>p {
+    position: absolute;
+    left: 24px;
+    top: 91px;
+    width: 285px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #192f60;
+}
+
+#rsltCardMobile {
+    position: absolute;
+    left: 0px;
+    top: 143px;
+    width: 419px;
+    height: 224px;
+    background-color: white;
+    box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.16);
+}
+
+.noRslt {
+    position: absolute;
+    top: 64px;
+    left: 66px;
+    width: 216px;
+    height: 28px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #192f60;
+}
+
+#rsltCard {
+    position: absolute;
+    left: 0px;
+    top: 238px;
+    width: 419px;
+}
+
+.card {
+    position: absolute;
+    width: 419px;
+    height: 202px;
+    background-color: white;
+    box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.16);
+}
+
+.card2 {
+    position: absolute;
+    top: 50px;
+    width: 419px;
+    height: 202px;
+    background-color: white;
+    box-shadow: 0 3px 18px 0 rgba(0, 0, 0, 0.16);
+}
+
+#rsltCard>.card>img {
+    display: inline-block;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 16px;
+    left: 12px;
+    border-radius: 5%;
+}
+
+#mainBody>form>select {
+    position: absolute;
+    width: 292px;
+    height: 44px;
+    top: 152px;
+    left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #192f60;
+    padding: 8px;
+}
+
+.card>h3 {
+    position: absolute;
+    left: 90px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.card>h4 {
+    position: absolute;
+    left: 90px;
+    top: 28px;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.cardDesc {
+    position: absolute;
+    left: 90px;
+    top: 45px;
+    font-size: 12px;
+    line-height: 30px;
+}
