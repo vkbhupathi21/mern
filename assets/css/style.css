@@ -4,6 +4,13 @@ body {
 }
 
 /* css for index */
+#divAsg1{
+    padding: 0% 0% 0% 1%;
+    box-shadow: -2px -1px 16px 1px #8c96ab;
+    align-content: center;
+    width: 80%;
+    background-color: #e3e5e947;
+}
 #indexBody{
     width: 80%;
     margin: 5% 0% 0% 15%;
@@ -11,8 +18,9 @@ body {
 #divCSS{
     display:inline-block;
     padding: 5px;
-    width:40%;
+    width:45%;
     box-shadow: inset -2px -1px 16px 1px #8c96ab;
+    float: right;
 }
 
 #divCSS > h3{
@@ -22,8 +30,9 @@ body {
 #divBS{
     display:inline-block;
     padding: 5px;
-    width:40%;
-     box-shadow: inset -2px -1px 16px 1px #8c96ab;
+    width:45%;
+    box-shadow: inset -2px -1px 16px 1px #8c96ab;
+    float:left;
 }
 
 #divBS > h3{
